@@ -973,3 +973,154 @@ button:focus{
 .why .item p span{
     font-weight: 600;
 }
+
+/**STORY**/
+.story{
+    max-width: 1100px;
+    margin: 0 auto;
+}   
+
+.story .item{
+
+}
+
+.story .item .in{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: #fff;
+}
+
+.story .item .pic{
+    width: 307px;
+    height: 307px;
+    flex-shrink: 0;
+}
+
+.story .item .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.story .item .right{
+    width: calc(100% - 337px);
+    padding-left: 40px;
+}
+
+.story .item .title{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.story .item p{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #5b5b5b;
+}
+
+/**FOOTER**/
+.footer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: #3C3B3B url(../img/footer/bg.svg) center bottom no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.footer .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo img{
+    width: 212px;
+    display: block;
+}
+
+.footer__top .cols{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer .flex{
+    display: flex;
+}
+
+.footer__sub{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer .flex .footer__sub{
+    padding-right: 35px;
+}
+
+.footer__sub a{
+    color: inherit;
+}
+
+.footer__nav{
+    list-style: none;
+}
+
+.footer__nav li{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}   
+
+.footer__nav li a{
+    color: inherit;
+}
+
+.social{
+    display: flex;
+    column-gap: 8px;
+}
+
+.social__item{
+
+}
+
+.social__item a{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.social__item img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.footer_ .line{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer_ .line__item{
+
+}
+
+.footer__bottom{
+    padding-top: 160px;
+}
+
+
