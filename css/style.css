@@ -1036,6 +1036,10 @@ button:focus{
     z-index: 1;
 }
 
+.footer .two-cols__left{
+    border: none;
+}
+
 .footer .logo{
     display: flex;
     justify-content: center;
@@ -1110,17 +1114,98 @@ button:focus{
     display: block;
 }
 
-.footer_ .line{
+.footer .line{
     display: flex;
     margin-bottom: 16px;
 }
 
-.footer_ .line__item{
+.footer .line__item:nth-child(1){
+    min-width: 160px;
+    padding-right: 5px;
+}
 
+.footer__phone{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer__phone a{
+    color: inherit;
+}
+
+.footer__place{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer__place a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer__mail{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer__mail a{
+    color: inherit;
+}
+
+.footer__callback{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer__callback a{
+    color: inherit;
+    text-decoration: underline;
 }
 
 .footer__bottom{
     padding-top: 160px;
+}
+
+.footer__bottom .container{
+    max-width: 1790px;
+    padding-left: 83px;
+}
+
+.footer__bottom .cols{
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer .logo-2{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 0.17834;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer .logo-2 i{
+    width: 88px;
+    height: 88px;
+    display: block;
+    flex-shrink: 0;
+    margin-left: 30px;
+    background: url(../img/footer/arrow.svg) center no-repeat;
+}
+
+.footer .logo-3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 0.85;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 
