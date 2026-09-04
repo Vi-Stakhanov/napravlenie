@@ -355,6 +355,10 @@ button:focus{
     z-index: 12;
 }
 
+.header .container{
+    min-width: none;
+}
+
 .header .two-cols{
     align-items: flex-start;
 }
@@ -439,6 +443,47 @@ button:focus{
 
 .header__phone a{
     color: inherit;
+}
+
+.burger{
+    width: 32px;
+    display: none;
+    margin-left: auto;
+}
+
+.burger span{
+    display: block;
+    height: 3px;
+    background: #000;
+    margin: 7px 0;
+}
+
+.menu-close{
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    background: transparent url(../img/header/close.svg) center no-repeat;
+    background-size: contain;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+.menu-mob{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    padding: 48px 15px 25px;
+    overflow: auto;
+    background: #fff;
+    z-index: 99;
+    display: none;
+}
+
+.menu-mob__item{
+    margin-top: 20px;
 }
 
 /**INTRO**/

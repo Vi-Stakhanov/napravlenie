@@ -1,5 +1,20 @@
 @media only screen and (max-width : 1600px){
-	
+    .two-cols__left{
+        width: 280px;
+    }
+
+	.two-cols__right{
+        width: calc(100% - 280px);
+        padding-left: 35px;
+    }
+
+    .intro__slider{
+        padding-right: 45px;
+    }
+
+    .arrows-append-vert{
+        right: 0;
+    }
 
 
 }/**1600px**/
@@ -15,11 +30,100 @@
 }/**1280px**/
 
 @media only screen and (max-width : 1200px){
-	
+	.hidd1200{
+		display: none!important;
+	}
+
+	.burger{
+		display: block;
+	}
+
+    .two-cols__left{
+        width: 0;
+        border: none;
+        display: none;
+    }
+
+    .two-cols__right{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .header{
+        border-bottom: 1px solid #c8c8c8;
+    }
+
+    .header .two-cols{
+        align-items: center;
+    }
+
+    .header__left{
+        width: 140px;
+        display: block;
+        padding: 8px 15px 8px;
+    }
+
+    .header__right{
+        width: calc(100% - 140px);
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .header__right{
+        border: none;
+    }
+
+    .header .logo img{
+        width: 110px;
+    }
+
+    .nav > ul{
+        display: block;
+    }
+
+    .nav > ul > li > a{
+        display: inline-block;
+        padding: 18px 15px;
+    }
+
+    .intro .two-cols__right{
+        min-height: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section .two-cols__right{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 }/**1200px**/
 
 @media only screen and (max-width : 1199px){
-	
+	.intro__left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .intro__right{
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .intro__title{
+        font-size: 38px;
+    }
+
+    .intro__text{
+        font-size: 18px;
+    }
+
+    .intro__slider{
+        padding-right: 35px;
+    }
+
+    .title-block{
+        font-size: 32px;
+    }
 }/**1199px**/
 
 @media only screen and (max-width : 992px){
@@ -35,7 +139,9 @@
 }/**768px**/
 
 @media only screen and (max-width : 767px){
-	
+	.intro__slider .in{
+        height: 480px;
+    }
 
 
 
