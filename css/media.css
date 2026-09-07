@@ -16,6 +16,14 @@
         right: 0;
     }
 
+    .footer .logo-2{
+        font-size: 130px;
+    }
+
+    .footer .logo-3{
+        font-size: 40px;
+    }
+
 
 }/**1600px**/
 
@@ -96,6 +104,20 @@
         padding-top: 35px;
         padding-bottom: 35px;
     }
+
+    .section-why .two-cols__right{
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+    
+    .footer__bottom .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer__bottom{
+        padding-top: 55px;
+    }
 }/**1200px**/
 
 @media only screen and (max-width : 1199px){
@@ -124,6 +146,140 @@
     .title-block{
         font-size: 32px;
     }
+
+    .about__left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .about__right{
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .advantages .item{
+        width: 100%;
+    }
+
+    .advantages .item .title{
+        font-size: 26px;
+    }
+
+    .category .item{
+        width: 100%;
+    }
+
+    .category .item .top{
+        height: 250px;
+    }
+
+    .category .item:nth-child(even) .in{
+        flex-direction: column;
+    }
+
+    .category .item .title{
+        font-size: 20px;
+    }
+    
+
+    .catalog .item{
+        width: 100%;
+    }
+
+    .catalog .item .top{
+        height: 250px;
+    }
+    
+    .catalog .item .title{
+        font-size: 20px;
+    }
+
+    .catalog .item:nth-child(even) .in{
+        flex-direction: column;
+    }
+
+    .why__cols{
+        flex-wrap: wrap;
+    }
+
+    .why__left{
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .why__center{
+        width: 100%;
+    }
+
+    .why__right{
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .story .item .in{
+        padding: 20px;
+    }
+
+    .story .item .pic{
+
+    }
+
+    .story .item .right{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .story .item .title{
+        font-size: 20px;
+    }
+
+    .footer{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .footer__top .cols{
+        flex-wrap: wrap;
+    }
+
+    .footer__top .col{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .footer .flex{
+        display: block;
+    }
+
+    .footer__bottom .cols{
+        flex-wrap: wrap;
+    }
+
+    .footer__bottom{
+        padding-top: 35px;
+    }
+
+    .footer__bottom .col{
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer .logo-2{
+        font-size: 45px;
+    }
+
+    .footer .logo-3{
+        font-size: 30px;
+    }
+
+    .footer .logo-2 i{
+        width: 30px;
+        height: 30px;
+        margin-left: 12px;
+        background-size: contain;
+    }
+
 }/**1199px**/
 
 @media only screen and (max-width : 992px){

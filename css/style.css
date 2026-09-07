@@ -356,7 +356,7 @@ button:focus{
 }
 
 .header .container{
-    min-width: none;
+    min-width: 0;
 }
 
 .header .two-cols{
@@ -1077,6 +1077,7 @@ button:focus{
     padding-top: 50px;
     padding-bottom: 80px;
     background: #3C3B3B url(../img/footer/bg.svg) center bottom no-repeat;
+    background-size: cover;
     position: relative;
     z-index: 1;
 }
