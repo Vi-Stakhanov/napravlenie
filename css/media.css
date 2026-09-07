@@ -24,6 +24,15 @@
         font-size: 40px;
     }
 
+    .projects .items{
+        margin: 0 -15px;
+    }
+
+    .projects .item{
+        padding: 0 15px;
+        margin-bottom: 35px;
+    }
+
 
 }/**1600px**/
 
@@ -121,6 +130,47 @@
 
     .gallery{
         margin-right: 0;
+    }
+
+    .content .container{
+        padding-left: 16px;
+    }
+
+    .breadcrumbs{
+        margin-bottom: 25px;
+    }
+
+    .content h1{
+        font-size: 32px;
+    }
+
+    .menu > ul{
+        column-gap: 16px;
+    }
+
+    .menu > ul > li > a{
+        padding: 16px 8px;
+        font-size: 12px;
+    }
+
+    .page-head{
+        min-height: 200px;
+    }
+
+    .page-head .in{
+        padding-top: 80px;
+    }
+
+    .page-head .title{
+        font-size: 32px;
+    }
+
+    .sorting ul{
+        column-gap: 20px;
+    }
+
+    .sorting ul li a{
+        font-size: 13px;
     }
 }/**1200px**/
 
@@ -377,6 +427,10 @@
 
     .title-block .orange{
         padding-left: 0;
+    }
+
+    .projects .item{
+        width: 100%;
     }
 
 }/**1199px**/

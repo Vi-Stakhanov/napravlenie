@@ -356,7 +356,7 @@ button:focus{
 
 .section__subtitle{
     margin-bottom: 30px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.05em;
@@ -1611,6 +1611,237 @@ button:focus{
     font-size: 16px;
     line-height: 1.25;
     color: #000;
+}
+
+/**CONTENT**/
+.content{
+
+}
+
+.content .two-cols__left{
+    padding-top: 600px;
+}
+
+.content .two-cols__right{
+    padding-top: 8px;
+    padding-left: 0;
+}
+
+.content .container{
+    max-width: 1370px;
+    padding-left: 60px;
+}
+
+.content h1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.13636;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.breadcrumbs{
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.breadcrumbs ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumbs ul li{
+    padding-right: 20px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff6628;
+    text-transform: uppercase;
+}
+
+.breadcrumbs ul li:before{
+    content: "/";
+    color: #000;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+}
+
+.breadcrumbs ul li:last-child:before{
+    content: none;
+}
+
+.breadcrumbs ul li a{
+    display: block;
+    color: #000;
+}
+
+
+.menu{
+    padding: 0 25px;
+    margin-bottom: 46px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.menu > ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 40px;
+    list-style: none;
+}
+
+.menu > ul > li{
+    position: relative;
+}
+
+.menu > ul > li > a{
+    display: block;
+    padding: 28px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+
+.menu > ul > li > a:before{
+    content: "";
+    width: 100%;
+    height: 6px;
+    background: #ff6628;
+    border-radius: 12px 12px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    transition: .3s;
+    opacity: 0;
+}
+
+.menu > ul > li:hover > a:before,
+.menu > ul > li.active > a:before{
+    opacity: 1;
+}
+
+.page-head{
+    min-height: 290px;
+    position: relative;
+}
+
+.page-head .pic{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.page-head .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.page-head .in{
+    padding: 112px 30px 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.page-head .title{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.13636;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.sorting ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    list-style: none;
+}
+
+.sorting ul li{
+
+}
+
+.sorting ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .3s;
+}
+
+.sorting ul li.active a,
+.sorting ul li:hover a{
+    color: #ff6628;
+}
+
+/**PROJECTS**/
+.projects{
+
+}
+
+.projects .items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -40px;
+}
+
+.projects .item{
+    width: 50%;
+    padding: 0 40px;
+    margin-bottom: 80px;
+}
+
+.projects .item .pic{
+    height: 340px;
+    margin-bottom: 26px;
+}
+
+.projects .item .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.projects .item .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ont-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.projects .item .title i{
+    width: 38px;
+    height: 16px;
+    display: block;
+    flex-shrink: 0;
+    margin-left: 16px;
+    background: url(../img/provide/arrow.svg) center no-repeat;
+}
+
+.flex-bot{
+    display: flex;
+    justify-content: center;
 }
 
 /**FOOTER**/
