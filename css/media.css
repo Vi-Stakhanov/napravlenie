@@ -118,6 +118,10 @@
     .footer__bottom{
         padding-top: 55px;
     }
+
+    .gallery{
+        margin-right: 0;
+    }
 }/**1200px**/
 
 @media only screen and (max-width : 1199px){
@@ -280,6 +284,38 @@
         background-size: contain;
     }
 
+    .gallery .item .pic{
+        height: 140px;
+    }
+
+    .profit .item{
+        width: 50%;
+    }
+
+    .tech__left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .tech__right{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .tech .pic{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tech .pic img{
+        width: auto;
+        max-width: 100%;
+    }
+
+    .tech p{
+        font-size: 18px;
+    }
+
 }/**1199px**/
 
 @media only screen and (max-width : 992px){
@@ -299,7 +335,9 @@
         height: 480px;
     }
 
-
+    .profit .item{
+        width: 100%;
+    }
 
 }/**767px**/
 

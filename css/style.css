@@ -149,6 +149,33 @@ textarea:focus{
     opacity: .888;
 }
 
+.btn-black{
+    min-height: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 30px;
+    background: #000;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-black .arrow{
+    width: 22px;
+    height: 13px;
+    display: block;
+    flex-shrink: 0;
+    margin-left: 16px;
+    background: url(../img/intro/arrow.svg) center no-repeat;
+}
+
+.btn-black:active,
+.btn-black:hover{
+    opacity: .8;
+}
+
 button:focus{
     outline: none;
 }
@@ -240,6 +267,11 @@ button:focus{
     z-index: 1;
 }
 
+.arrows-append.right{
+    margin-left: auto;
+    margin-right: 0;
+}
+
 .arrows-append-vert{
     width: 16px;
     height: 104px;
@@ -280,6 +312,10 @@ button:focus{
     z-index: 1;
 }
 
+.overlow-hidden{
+    overflow: hidden;
+}
+
 .section.orange{
     background: #ff6628;
 }
@@ -297,6 +333,7 @@ button:focus{
     width: 400px;
     flex-shrink: 0;
     border-right: 1px solid #c8c8c8;
+    position: relative;
 }
 
 .two-cols__right{
@@ -326,6 +363,20 @@ button:focus{
 
 .section__subtitle.white{
     color: #fff;
+}
+
+.section-bg{
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.section-bg img{
+    width: 100%;
+    display: block;
 }
 
 .title-block{
@@ -562,6 +613,37 @@ button:focus{
     height: 100%;
     display: block;
     object-fit: cover;
+}
+
+.intro__slider .overlay{
+    width: 100%;
+    max-width: 400px;
+    padding: 25px 25px 80px 25px;
+    background: rgba(255, 102, 40, 0.7);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.intro__slider .title{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.23077;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.intro__slider .title span{
+    display: block;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.intro__slider__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /**ABOUT**/
@@ -1036,6 +1118,10 @@ button:focus{
     background: #fff;
 }
 
+.story .item .in.gray{
+    background: #f1f2f4;
+}
+
 .story .item .pic{
     width: 307px;
     height: 307px;
@@ -1069,6 +1155,117 @@ button:focus{
     font-size: 16px;
     line-height: 1.375;
     color: #5b5b5b;
+}
+
+/**GALLERY**/
+.gallery{
+    margin-right: -110px;
+}
+
+.gallery .slider-wrap{
+    margin: 0 -10px;
+}
+
+.gallery .item{
+    padding: 0 10px;
+}
+
+.gallery .item .pic{
+    height: 240px;
+}
+
+.gallery .item .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/**PROFIT**/
+.profit{
+
+}
+
+.profit .items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.profit .item{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.profit .item .icon{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.profit .item .icon img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profit .item .title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0625;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.profit .item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #5b5b5b;
+}
+
+/**TECH**/
+.tech{
+
+}
+
+.tech__cols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tech__left{
+    width: calc(100% - 380px);
+    padding-right: 110px;
+}
+
+.tech__right{
+    width: 380px;
+    flex-shrink: 0;
+}
+
+.tech p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.27273;
+    text-align: justify;
+    color: #5b5b5b;
+}
+
+.tech .pic{
+    
+}
+
+.tech .pic img{
+    width: 100%;
+    display: block;
 }
 
 /**FOOTER**/
