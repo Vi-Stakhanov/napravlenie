@@ -307,6 +307,10 @@ button:focus{
     text-align: right;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 .section{
     position: relative;
     z-index: 1;
@@ -381,7 +385,7 @@ button:focus{
 
 .title-block{
     margin-bottom: 25px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
     line-height: 1;
     color: #000;
@@ -397,6 +401,15 @@ button:focus{
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
+}
+
+.title-block .orange{
+    padding-left: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ff6628;
+    line-height: 1;
+    t
 }
 
 /**HEADER**/
@@ -576,6 +589,14 @@ button:focus{
     flex-shrink: 0;
 }
 
+.intro .sub{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+}
+
 .intro__title{
     margin-bottom: 30px;
     font-weight: 500;
@@ -644,6 +665,15 @@ button:focus{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.intro__pic{
+
+}
+
+.intro__pic img{
+    max-width: 100%;
+    display: block;
 }
 
 /**ABOUT**/
@@ -1183,7 +1213,51 @@ button:focus{
 
 /**PROFIT**/
 .profit{
+    position: relative;
+}
 
+.profit.border{
+    padding: 25px;
+}
+
+.profit.border .top_left{
+    width: 100px;
+    height: 100px;
+    background: url(../img/profit/top_left.svg) center no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.profit.border .top_right{
+    width: 100px;
+    height: 100px;
+    background: url(../img/profit/top_right.svg) center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.profit.border .bottom_left{
+    width: 100px;
+    height: 100px;
+    background: url(../img/profit/bottom_left.svg) center no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.profit.border .bottom_right{
+    width: 100px;
+    height: 100px;
+    background: url(../img/profit/bottom_right.svg) center no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 }
 
 .profit .items{
@@ -1196,6 +1270,10 @@ button:focus{
     width: 25%;
     padding: 0 15px;
     margin-bottom: 30px;
+}
+
+.profit .item.w33{
+    width: 33.33%;
 }
 
 .profit .item .icon{
@@ -1228,6 +1306,17 @@ button:focus{
     font-size: 16px;
     line-height: 1.25;
     color: #5b5b5b;
+}
+
+.profit__text{
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #000;
 }
 
 /**TECH**/
@@ -1266,6 +1355,253 @@ button:focus{
 .tech .pic img{
     width: 100%;
     display: block;
+}
+
+/**PROVIDE**/
+.provide{
+
+}
+
+.provide .item{
+    margin-bottom: 40px;
+}
+
+.provide .item .in{
+    display: flex;
+    align-items: flex-start;
+}
+
+.provide .item .left{
+    width: 254px;
+    flex-shrink: 0;
+}
+
+.provide .item .center{
+    width: 645px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    padding-right: 64px;
+}
+
+.provide .item .right{
+    flex-grow: 1;
+    margin-top: 14px;
+    padding: 18px 0 18px 24px;
+    border-left: 8px solid #f1f2f4;
+}
+
+.provide .item .pic{
+    height: 254px;    
+}
+
+.provide .item .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.provide .item .title{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.provide .item .title span{
+    display: block;
+    text-indent: 45px;
+}
+
+.provide .item p{
+    max-width: 503px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #000;
+}
+
+.provide .item .arrow{
+    width: 38px;
+    height: 16px;
+    margin-left: auto;
+    background: url(../img/provide/arrow.svg) center no-repeat;
+}
+
+.provide .item ul{
+    list-style: none;
+}
+
+.provide .item ul li{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #000;
+}
+
+.provide .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+/**ACTION**/
+.section-action{
+    background: #232323 url(../img/action/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.action__cols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.action__left{
+    width: 670px;
+    padding-right: 185px;
+}
+
+.action__right{
+    width: calc(100% - 670px);
+}
+
+.action .chisel{
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.26);
+    border: 1px solid #fff;
+}
+
+.action p{
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #fff;
+}
+
+.action p:last-child{
+    margin-bottom: 0;
+}
+
+/**PRODUCT**/
+.product{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product__cols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}   
+
+.product__left{
+    width: calc(100% - 670px);
+    padding-right: 30px;
+}
+
+.product__right{
+    width: 670px;
+    flex-shrink: 0;
+}
+
+.product__in{
+    height: 420px;
+    position: relative;
+}
+
+.product__in .pic{
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.product__in .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.product__in .overlay{
+    width: 100%;
+    max-width: 400px;
+    padding: 25px 25px 80px 25px;
+    background: rgba(255, 102, 40, 0.7);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.product__in .title{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.23077;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.product__in .title span{
+    display: block;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.product__in__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/**DETAIL**/
+.detail{
+
+}
+
+.detail .items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.detail .item{
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.detail .item .icon{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.detail .item .icon img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.detail .item .title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.0625;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.detail .item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #000;
 }
 
 /**FOOTER**/
