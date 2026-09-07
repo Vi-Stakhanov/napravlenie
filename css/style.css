@@ -1383,6 +1383,11 @@ button:focus{
     padding-right: 64px;
 }
 
+.provide .item .center.grow{
+    width: 740px;
+    padding-right: 0;
+}
+
 .provide .item .right{
     flex-grow: 1;
     margin-top: 14px;
@@ -1450,6 +1455,10 @@ button:focus{
 .section-action{
     background: #232323 url(../img/action/bg.jpg) center no-repeat;
     background-size: cover;
+}
+
+.section-action.bg_2{
+    background-image: url(../img/action/bg_2.jpg);
 }
 
 .action__cols{
