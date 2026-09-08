@@ -803,7 +803,7 @@ button:focus{
 
 /**CATEGORY**/
 .category{
-
+    max-width: 1368px;
 }
 
 .section-category .two-cols__right{
@@ -933,7 +933,7 @@ button:focus{
 
 /**CATALOG**/
 .catalog{
-
+    max-width: 1368px;
 }
 
 .section-catalog .two-cols__right{
@@ -1062,7 +1062,7 @@ button:focus{
 
 /**WHY**/
 .why{
-
+    max-width: 1368px;
 }
 
 .section-why .two-cols__right{
@@ -1930,6 +1930,133 @@ button:focus{
 
 .video{
     max-width: 844px;
+}
+
+/**SEEN**/
+.seen-top{
+    padding-bottom: 20px;
+}
+
+.seen-top__cols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.seen-top__left{
+    width: calc(100% - 812px);
+    padding-right: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+.seen-top__right{
+    width: 812px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.seen-top .title{
+    padding-bottom: 10px;
+    margin-bottom: 44px;
+    position: relative;
+}
+
+.seen-top .title:before{
+    content: "";
+    width: 100vw;
+    height: 1px;
+    background: #c8c8c8;
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+}
+
+.seen-top p{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    text-align: justify;
+    color: #000;
+}
+
+.seen-top .pic{
+
+}
+
+.seen-top .pic img{
+    max-width: 100%;
+    display: block;
+}
+
+.tags{
+    padding-bottom: 35px;
+}
+
+.tags ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.tags ul li{
+    margin-right: 40px;
+    margin-bottom: 16px;
+}
+
+.tags ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.9375;
+    color: #ff6628;
+}
+
+/**PRODUCTS**/
+.products{
+
+}
+
+.products .items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+}
+
+.products .item{
+    width: 33.33%;
+    padding: 0 4px;
+    margin-bottom: 50px;
+}
+
+.products .item .in{
+
+}
+
+.products .item .pic{
+    height: 340px;
+    margin-bottom: 28px;
+}
+
+.products .item .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.products .item .title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.07143;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.products .item .title a{
+    color: inherit;
 }
 
 /**FOOTER**/

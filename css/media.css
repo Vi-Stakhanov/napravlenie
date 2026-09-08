@@ -458,6 +458,41 @@
     .card-slider-top .pic{
         height: 400px;
     }
+
+    .seen-top .title{
+        margin-bottom: 20px;
+    }
+
+    .seen-top .title:before{
+        display: none;
+    }
+
+    .seen-top__left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .seen-top__right{
+        width: 100%;
+    }
+    
+    .tags{
+        padding-bottom: 20px;
+    }
+
+    .tags ul li{
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    .tags ul li a{
+        font-size: 14px;
+    }
+
+    .products .item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
     
 
 }/**1199px**/
@@ -494,6 +529,14 @@
     .card-des{
         padding-top: 35px;
         padding-bottom: 55px;
+    }
+
+    .products .item{
+        width: 100%;
+    }
+
+    .products .item .pic{
+        height: 240px;
     }
 
 }/**767px**/
