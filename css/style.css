@@ -1844,6 +1844,94 @@ button:focus{
     justify-content: center;
 }
 
+/**CARD**/
+.card__title span{
+    display: block;
+    text-indent: 100px;
+}
+
+.card__cols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.card__left{
+    width: calc(100% - 360px);
+}
+
+.card__right{
+    width: 360px;
+    flex-shrink: 0;
+    padding-left: 60px;
+}
+
+.card-slider-top{
+
+}
+
+.card-slider-top .pic{
+    height: 546px;
+}
+
+.card-slider-top .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-slider-bottom .pic{
+    height: 196px;
+    padding-top: 28px;
+}
+
+.card-slider-bottom .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-slider-bottom  .arrows-append-vert{
+    margin-left: auto;
+    margin-right: 45px;
+    margin-bottom: 38px;
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+}
+
+.card-des{
+    max-width: 554px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.card-des .subtitle{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.07143;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.card-des p{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    text-align: justify;
+    color: #000;
+}
+
+.video{
+    max-width: 844px;
+}
+
 /**FOOTER**/
 .footer{
     width: 100%;

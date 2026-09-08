@@ -43,6 +43,27 @@ $(document).ready(function() {
             }   
         ]
     });
+
+    $('.slider__card_1').slick({
+        autoplay: false,
+        arrows: false, 
+        fade: true,
+        cssEase: 'linear',
+        dots: false,
+        asNavFor: '.slider__card_2'
+        
+    });
+    $('.slider__card_2').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        infinite: true,
+        vertical: true,
+        asNavFor: '.slider__card_1',
+        focusOnSelect: true,
+        appendArrows: $('#arrows-append_4')
+    });
           
 
 });

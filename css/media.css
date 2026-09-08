@@ -433,6 +433,33 @@
         width: 100%;
     }
 
+    .card__left{
+        width: calc(100% - 80px);
+    }
+
+    .card__cols{
+        align-items: flex-start;
+    }
+
+    .card__right{
+        width: 80px;
+        padding-left: 18px;
+    }
+
+    .card__title span{
+        text-indent: 30px;
+    }
+
+    .card-slider-bottom .pic{
+        height: 60px;
+        padding-top: 10px;
+    }
+
+    .card-slider-top .pic{
+        height: 400px;
+    }
+    
+
 }/**1199px**/
 
 @media only screen and (max-width : 992px){
@@ -458,6 +485,15 @@
 
     .detail .item{
         width: 100%;
+    }
+
+    .card-slider-top .pic{
+        height: 300px;
+    }
+
+    .card-des{
+        padding-top: 35px;
+        padding-bottom: 55px;
     }
 
 }/**767px**/
